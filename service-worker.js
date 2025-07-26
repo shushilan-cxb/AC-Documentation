@@ -1,6 +1,6 @@
 const CACHE_NAME = 'ac-docs-cache-v1';
 const urlsToCache = [
-  '/',
+  'https://shushilan-cxb.github.io/AC-Documentation/',
   '/index.html',
   '/style.css',
   '/script.js',
@@ -12,7 +12,7 @@ const urlsToCache = [
   'https://cdn.jsdelivr.net/npm/crypto-js@4.1.1/crypto-js.min.js',
   'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css',
   'https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css',
-  'https://cdn.jsdelivr.net/npm/flatpickr'
+  'https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.js'
 ];
 
 self.addEventListener('install', (event) => {
