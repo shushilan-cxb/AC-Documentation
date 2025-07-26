@@ -1,0 +1,21 @@
+{
+  "name": "AC Documentation",
+  "short_name": "AC Docs",
+  "description": "Documentation for Aggregation Centers",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f8f8",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "ShushilanLogo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "ShushilanLogo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
