@@ -1,0 +1,44 @@
+﻿SL,Name of Document,Document Type,Frequency
+1,Cash Book,Register,Weekly
+2,Ledger Book,Register,Weekly
+3,FFC transaction register,Register,Weekly
+4,Local Sales register,Register,Weekly
+5,"AC market day sales register (Including BNF Id, BNF name, SHG, FS name)",Register,Weekly
+6,Savings Register,Register,Monthly
+7,Bank Register,Register,Weekly
+8,Stock Register,Register,Monthly
+9,Monthly Meeting Register,Register,Monthly
+10,SAAO/ SALO engagement Register,Register,Monthly
+11,Livestock Register,Register,Monthly
+12,Seed Register,Register,Monthly
+13,Training Register,Register,Weekly
+14,Bank Log Book Register (only for FFC payment AC),Register,Weekly
+15,Engine Van tracking Register,Register,Weekly
+16,Cash Withdrawl from bank Register,Register,Weekly
+17,Visiting register,Register,Weekly
+18,CRI community risk fund register,Register,Monthly
+1,AC aggrement,File/ Bill -voucher- Challan,Need Base
+2,Equipment rental agreement,File/ Bill -voucher- Challan,Need Base
+3,Trade Liscence from union Parishad,File/ Bill -voucher- Challan,Need Base
+4,AC Registration documents,File/ Bill -voucher- Challan,Need Base
+5,Acknowledgement of farmer for money receipt,File/ Bill -voucher- Challan,Need Base
+6,Acknowledgement of driver for money receipt,File/ Bill -voucher- Challan,Need Base
+7,Logbook Acknowledgement,File/ Bill -voucher- Challan,Need Base
+8,Deposit slip,File/ Bill -voucher- Challan,Need Base
+9,Bank statement ,File/ Bill -voucher- Challan,Need Base
+10,FFC transaction challan and bill,File/ Bill -voucher- Challan,Need Base
+11,AC wise SHG & BNF list,File/ Bill -voucher- Challan,Need Base
+12,CRI monitoring & validation committee list,File/ Bill -voucher- Challan,Need Base
+13,General bill voucher ,File/ Bill -voucher- Challan,Need Base
+1,Weather Forecasting Board,Visibility Items,Need Base
+2,Price board Weekly FFC Product items,Visibility Items,Need Base
+3,Price board Local market,Visibility Items,Need Base
+4,Complaint Box,Visibility Items,Need Base
+5,Rental equipments from AC,Visibility Items,Need Base
+6,Services from AC,Visibility Items,Need Base
+7,Yearely Disaster Calender ,Visibility Items,Need Base
+8,WFP Hotline,Visibility Items,Need Base
+9,Fortified rice ,Visibility Items,Need Base
+10,Crop calender,Visibility Items,Need Base
+11,PSEA manifesto,Visibility Items,Need Base
+12,Sign Board,Visibility Items,Need Base

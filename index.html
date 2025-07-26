@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC Documentation</title>
+    <link rel="icon" href="ShushilanLogo.png">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/crypto-js@4.1.1/crypto-js.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+<body class="bg-gray-100">
+    <div id="app" class="container mx-auto px-4 py-8">
+        <div class="flex justify-between items-center mb-8 relative">
+            <div class="absolute top-0 right-0 flex space-x-2" id="headerButtons">
+                <div id="authButtonContainer">
+                    <button id="authButton" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"></button>
+                </div>
+                <div id="logoutButtonContainer">
+                    <button id="logoutIconButton" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+                        <i class="fas fa-sign-out-alt"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="flex-grow text-center">
+                <img src="ShushilanLogo.png" alt="Shushilan Logo" class="mx-auto mb-4" style="max-width: 100px; height: auto;">
+                <h1 class="text-3xl font-bold">AC Documentation</h1>
+                <p id="welcomeMessage"></p>
+            </div>
+        </div>
+        <div id="mainContent" class="hidden">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <label for="aggregationCenter" class="block text-sm font-medium text-gray-700">Aggregation Center</label>
+                    <select id="aggregationCenter" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+                        <option>Select an Aggregation Center</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="docType" class="block text-sm font-medium text-gray-700">Document Type</label>
+                    <select id="docType" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+                        <option>Select a Document Type</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="nameOfDocument" class="block text-sm font-medium text-gray-700">Name of Document</label>
+                    <select id="nameOfDocument" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+                        <option>Select a Name of Document</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="startDate" class="block text-sm font-medium text-gray-700">Start Date</label>
+                    <input type="text" id="startDate" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md" placeholder="DD/MM/YYYY">
+                </div>
+                <div>
+                    <label for="endDate" class="block text-sm font-medium text-gray-700">End Date</label>
+                    <input type="text" id="endDate" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md" placeholder="DD/MM/YYYY">
+                </div>
+            </div>
+            <div class="mt-8">
+                <iframe id="tallyForm" class="w-full h-screen" frameborder="0" marginheight="0" marginwidth="0" title="Tally Form"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="passcodeModal" class="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full hidden">
+        <div class="relative top-20 mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
+            <div class="mt-3 text-center">
+                <h3 class="text-lg leading-6 font-medium text-gray-900">Enter Passcode</h3>
+                <div class="flex justify-center mt-2" id="passcodeInputs">
+                    <input type="text" class="w-12 h-12 text-center text-2xl border rounded-md mx-1 uppercase" maxlength="1">
+                    <input type="text" class="w-12 h-12 text-center text-2xl border rounded-md mx-1 uppercase" maxlength="1">
+                    <input type="text" class="w-12 h-12 text-center text-2xl border rounded-md mx-1 uppercase" maxlength="1">
+                    <input type="text" class="w-12 h-12 text-center text-2xl border rounded-md mx-1 uppercase" maxlength="1">
+                    <input type="text" class="w-12 h-12 text-center text-2xl border rounded-md mx-1 uppercase" maxlength="1">
+                    <input type="text" class="w-12 h-12 text-center text-2xl border rounded-md mx-1 uppercase" maxlength="1">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</body>
+</html>
