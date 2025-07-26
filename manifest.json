@@ -2,7 +2,7 @@
   "name": "AC Documentation",
   "short_name": "AC Docs",
   "description": "Documentation for Aggregation Centers",
-  "start_url": "/",
+  "start_url": "https://shushilan-cxb.github.io/AC-Documentation/",
   "display": "standalone",
   "background_color": "#f8f8f8",
   "theme_color": "#3b82f6",
