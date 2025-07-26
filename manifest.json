@@ -20,5 +20,8 @@
   ],
   "orientation": "portrait",
   "lang": "en",
-  "dir": "auto"
+  "dir": "auto",
+  "launch_handler": {
+    "client_mode": "auto"
+  }
 }
