@@ -23,5 +23,6 @@
   "dir": "auto",
   "launch_handler": {
     "client_mode": "auto"
-  }
+  },
+  "id": "io.github.shushilan_cxb.twa"
 }
